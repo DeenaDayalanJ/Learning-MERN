@@ -1,0 +1,26 @@
+JavaScript Object is a collection of named valus having state and behavior(properties and method).
+
+Objects are important data types in javascript. Ojects are different than primitive datatypes (number, string, boolean). 
+Primitive datatypes contain one value but Objects can hold many values in form of key:Value pair.
+
+Every Object has some propert associated with some value. These value can be accessed using these properties assocaited with them.
+
+For Example:
+
+var myCar = new Object();
+
+myCar.make = 'Nissan';
+
+myCar.model = 'GTR';
+
+myCar.year = 2023;
+
+myCar.wheels = 4;
+
+After creating myCar Object, the value inside the object can be accessed using keys.
+
+
+
+Syntax of adding a property to an object is:
+
+ObjectName.ObjectProperty = PropertyValue;

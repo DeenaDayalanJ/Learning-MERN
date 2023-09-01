@@ -1,0 +1,27 @@
+
+HTTP stands for Hypertext Transfer Protocol, and it is the basis for all the web applications.
+HTTP is the method computers and servers use to request and send the information.
+
+HTTP/1.1 was created in 1997 and HTTP/2 was created in 2015.
+
+HTTP/2 is faster and more efficient than HTTP/1.1.
+
+1. Multiplexing: 
+
+HTTP/1.1 loads resources one after the other, so if one resource cant be loaded, it blocks all other resources.
+HTTP/2 is able to use a single TCP connection to send multiple streams of data at once so that one resource cant blocks any other 
+resource. It's splitting data into binary code messages and numbering these messages so that the clients know which stream each binary 
+message belongs to.
+
+2. Server Push: 
+
+A server only serves content to a client device if the client ask for it. And this approach is not always practical for the modern web 
+pages, which often involve several dozen separate resources that client must request.
+HTTP/2 solve this problem by allowing a server to push content to a client before the client ask for it. The server also sends a message letting the client know what pushed content to expect.
+
+3. Prioritization:
+
+Prioritization refers to the order in which pieces of content are loaded. Prioritiation affects a webpages load time. Certain resources
+like large JavaScript files, may block the rest of the page from loading if they have to load first. More of the page can load at once 
+if these render-blocking resources load last.
+HTTP/2 Offers a features called weighted prioritization. This allows developers to decide which page resources will load first, every time.
