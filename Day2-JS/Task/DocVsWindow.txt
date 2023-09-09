@@ -1,0 +1,32 @@
+
+
+JavaScript uses two important objects in web development: document and window. 
+
+
+Document Object:  It is the top most object and outermost element of the object hierarchy.
+
+->Represents the loaded HTML page.
+
+->Used to access and modify page content.
+
+->Great for DOM manipulation.
+
+->Helps with event handling within the page.
+
+
+Window Object: Each HTML document that gets loaded into a window becomes a document object. 
+The document contains the contents of the page. 
+Using document object, JavaScript can modify, add and delete the HTML elements, attributes CSS styles in the page
+
+->Represents the entire browser window.
+
+->Controls browser-related actions.
+
+->Manages global variables and browser functions.
+
+->Handles events like resizing and unloading.
+
+
+
+
+
